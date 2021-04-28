@@ -1,0 +1,24 @@
+* {
+	margin: 0;
+	font-size: 3vw;
+}
+
+body {
+	background-image: url("../images/backgrounds/BloodMoon.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#menuContainer {
+	width: 15vw;
+	margin-left: calc(50% - 7.5vw - 20px);
+	margin-top:15%;
+	border: double 5px black;
+	background-color: burlywood;
+    padding: 20px;
+    text-align: center;
+}
+
+#GameName {
+	margin-bottom: 1vw;
+}

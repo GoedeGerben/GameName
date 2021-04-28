@@ -1,0 +1,67 @@
+* {
+	margin: 0;
+}
+
+body {
+	background-image: url("../images/backgrounds/StoneWall.png");
+	background-size: 60vw;
+	overflow: hidden;
+}
+
+#menuContainer {
+	width: 15vw;
+	margin-left: calc(50% - 7.5vw - 20px);
+	margin-top:15%;
+	border: double 5px black;
+	background-color: burlywood;
+    padding: 20px;
+    text-align: center;
+}
+
+#GameName {
+	margin-bottom: 1vw;
+}
+
+#inventory {
+	width: 25vw;
+	padding: 10px;
+	border: double 5px black;
+	background-color: burlywood;
+    text-align: center;
+    position: absolute;
+}
+
+.item {
+	width: 5vw;
+	height: 5vw;
+	background-color: black;
+	display: inline-flex;
+	margin: 5px;
+}
+
+#character {
+	width: 5.5vw;
+	height: 12vw;
+	background-color: black;
+	margin-top: 28vw;
+	position: absolute;
+	transition: margin 0.2s;
+}
+
+#enemy {
+	width: 5.5vw;
+	height: 12vw;
+	background-color: red;
+	margin-top: 28vw;
+	position: absolute;
+}
+
+#ground {
+	width: 100%;
+    height: 100vw;
+    background-image: url(../images/backgrounds/StoneWall.png);
+    background-size: 60vw;
+    filter: brightness(20%);
+    position: absolute;
+    margin-top: 40vw;
+}
